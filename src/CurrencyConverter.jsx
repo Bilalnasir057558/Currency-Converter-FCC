@@ -1,6 +1,7 @@
+import React from "react";
 const { useState, useMemo } = React;
 
-export function CurrencyConverter() {
+export default function CurrencyConverter() {
 
   const rates = {
     USD: 1,
